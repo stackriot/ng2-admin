@@ -1,6 +1,6 @@
 FROM node:latest
 
-RUN git clone https://github.com/sethergman/ng2-admin.git /var/www \
+RUN git clone https://github.com/sethbergman/ng2-admin.git /var/www \
     && cd /var/www \
     && npm install --global rimraf \
     && npm run clean \
