@@ -33,7 +33,6 @@ Thumbs.db
 /bower_components
 
 # Doc #
-/doc/
 
 # IDE #
 .idea/
