@@ -1,1 +1,1 @@
-web: npm run prebuild:prod && npm run build:prod && npm run server:prod
+web: npm start
