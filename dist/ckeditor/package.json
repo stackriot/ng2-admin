@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ckeditor@https://registry.npmjs.org/ckeditor/-/ckeditor-4.6.0.tgz",
+        "scope": null,
+        "escapedName": "ckeditor",
+        "name": "ckeditor",
+        "rawSpec": "https://registry.npmjs.org/ckeditor/-/ckeditor-4.6.0.tgz",
+        "spec": "https://registry.npmjs.org/ckeditor/-/ckeditor-4.6.0.tgz",
+        "type": "remote"
+      },
+      "/home/seth/code/ng2admin3"
+    ]
+  ],
+  "_from": "ckeditor@4.6.0",
+  "_id": "ckeditor@4.6.0",
+  "_inCache": true,
+  "_location": "/ckeditor",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ckeditor@https://registry.npmjs.org/ckeditor/-/ckeditor-4.6.0.tgz",
+    "scope": null,
+    "escapedName": "ckeditor",
+    "name": "ckeditor",
+    "rawSpec": "https://registry.npmjs.org/ckeditor/-/ckeditor-4.6.0.tgz",
+    "spec": "https://registry.npmjs.org/ckeditor/-/ckeditor-4.6.0.tgz",
+    "type": "remote"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ckeditor/-/ckeditor-4.6.0.tgz",
+  "_shasum": "37cdc988aa22ca6fc67540bb32b6f039a35e7718",
+  "_shrinkwrap": null,
+  "_spec": "ckeditor@https://registry.npmjs.org/ckeditor/-/ckeditor-4.6.0.tgz",
+  "_where": "/home/seth/code/ng2admin3",
+  "author": {
+    "name": "CKSource",
+    "url": "http://cksource.com/"
+  },
+  "bugs": {
+    "url": "http://dev.ckeditor.com"
+  },
+  "dependencies": {},
+  "description": "JavaScript WYSIWYG web text editor.",
+  "devDependencies": {},
+  "homepage": "http://ckeditor.com",
+  "keywords": [
+    "ckeditor",
+    "fckeditor",
+    "editor",
+    "wysiwyg",
+    "html",
+    "richtext",
+    "text",
+    "javascript"
+  ],
+  "license": "For licensing, see LICENSE.md or http://ckeditor.com/license.",
+  "main": "ckeditor.js",
+  "name": "ckeditor",
+  "optionalDependencies": {},
+  "readme": "CKEditor 4 - Releases\n=====================\n\n## Releases Code\n\nThis repository contains the official release versions of [CKEditor](http://ckeditor.com).\n\nThere are four versions for each release &mdash; `standard-all`, `basic`, `standard`, and `full`.\nThey differ in the number of plugins that are compiled into the main `ckeditor.js` file as well as the toolbar configuration.\n\nSee the [comparison](http://ckeditor.com/presets) of the `basic`, `standard`, and `full` installation presets for more details.\n\nThe `standard-all` build includes all official CKSource plugins with only those from the `standard` installation preset compiled into the `ckeditor.js` file and enabled in the configuration. \n\nAll versions available in this repository were built using [CKBuilder](http://ckeditor.com/builder), so they are optimized and ready to be used in a production environment.\n\n## Documentation\n\nDeveloper documentation for CKEditor is available online at: <http://docs.ckeditor.com>.\n\n## Installation\n\n### Git clone\n\nTo install one of the available releases, just clone this repository and switch to the respective branch (see next section):\n\n\tgit clone -b <release branch> git://github.com/ckeditor/ckeditor-releases.git\n\t\n### Git submodule\n\nIf you are using git for your project and you want to integrate CKEditor, we recommend to add this repository as a\n[submodule](http://git-scm.com/book/en/Git-Tools-Submodules).\n\n\tgit submodule add -b <release branch> git://github.com/ckeditor/ckeditor-releases.git <clone dir>\n\tgit commit -m \"Added CKEditor submodule in <clone dir> directory.\"\n\n### Using Package Managers\n\nSee the [Installing CKEditor with Package Managers](http://docs.ckeditor.com/#!/guide/dev_package_managers) article for more details about installing CKEditor with [Bower](http://bower.io/), [Composer](https://getcomposer.org/) and [npm](https://www.npmjs.com/).\n\n## Repository Structure\n\n### Branches\n\nThis repository contains the following branches:\n\n  - `master` and `latest` &ndash; the latest release of the `standard-all` preset (including betas).\n  - `stable` &ndash; the latest stable release of the `standard-all` preset (non-beta).\n  - `A.B.x` (e.g. `4.3.x`) &ndash; the latest release of the `standard-all` preset in the `A.B` branch.\n  - `(basic|standard|full)/stable` &ndash; the latest stable release tag point (non-beta).\n  - `(basic|standard|full)/latest` &ndash; the latest release tag point (including betas).\n  - `(basic|standard|full)/A.B.x` (e.g. `basic/4.0.x`) &ndash; the latest releases in the `A.B` branch.\n\n### Tags\n\n**Since version 4.3.3** this repository uses the following tag naming rules:\n\n  - `x.y.z` &ndash; contains the `standard-all` editor build, e.g. `4.3.3`, `4.4.0` etc.\n  - `(basic|standard|full)/x.y.z` &ndash; contains the editor build with a given preset, e.g. `basic/4.3.3`.\n\nThe version numbers follow the [Semantic Versioning 2.0.0](http://semver.org/) scheme.\n\nUp to version **4.3.2** the tags were released in the following form `x.y[.z]/(basic|standard|full)`.\nFor example: `4.0/basic`, `4.0.1/standard`. This convention was changed in CKEditor 4.3.3 to conform to the Semantic Versioning scheme.\n\n## Checking Your Installation\n\nThe editor comes with a sample page that can be used to verify if the installation succeeded. Take a look at the `samples` directory.\n\nTo test your installation, just call the following page for your website:\n\n\thttp://<your site>/<CKEditor installation path>/samples/index.html\n\nFor example:\n\n\thttp://www.example.com/ckeditor/samples/index.html\n\n### License\n\nLicensed under the GPL, LGPL, and MPL licenses, at your choice.\n\nPlease check the `LICENSE.md` file for more information about the license.",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckeditor/ckeditor-releases.git"
+  },
+  "version": "4.6.0"
+}
