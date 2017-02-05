@@ -141,7 +141,7 @@
     "server": "npm run server:dev",
     "server:dev": "webpack-dev-server --config config/webpack.dev.js --progress --profile --watch --content-base src/",
     "server:dev:hmr": "npm run server:dev -- --inline --hot",
-    "server:prod": "http-server dist -c-1 --cors",
+    "server:prod": "http-server dist",
     "server:test": "http-server dist-demo -c-1 --cors",
     "server:prod:ci": "http-server dist -p 3000 -c-1 --cors",
     "webdriver:update": "npm run webdriver-manager update",
