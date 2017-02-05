@@ -152,7 +152,7 @@
     "pretest": "npm run lint",
     "docs": "npm run typedoc -- --options typedoc.json --exclude '**/*.spec.ts' ./src/",
     "gh-pages": "wintersmith build -C docs && gh-pages -d docs/build",
-    "start": "npm run server:dev",
+    "start": "npm run server:prod",
     "start:hmr": "npm run server:dev:hmr",
     "version": "npm run build",
     "build:electron": "npm run build:electron.full",
