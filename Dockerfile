@@ -8,4 +8,3 @@ RUN npm start
 EXPOSE 8080
 
 WORKDIR /var/www
-ENTRYPOINT ["npm", "run", "server:prod"]
