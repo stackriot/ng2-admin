@@ -200,12 +200,9 @@ module.exports = function (options) {
     devServer: {
       port: METADATA.port,
       host: METADATA.host,
+      open: false,
       historyApiFallback: {
         index: '/index.html'
-      },
-      watchOptions: {
-        aggregateTimeout: 300,
-        poll: 1000
       }
     },
 
@@ -220,8 +217,8 @@ module.exports = function (options) {
       crypto: 'empty',
       process: true,
       module: false,
-      clearImmediate: false,
-      setImmediate: false
+      clearImmediate: true,
+      setImmediate: true
     }
 
   });

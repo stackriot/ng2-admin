@@ -2,7 +2,7 @@ FROM node:latest
 
 ARG NODE=production
 ENV NODE_ENV ${NODE}
-RUN npm start
+RUN npm run build
 
 
 EXPOSE 8080
