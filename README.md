@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/sethbergman/ng2-admin.svg?branch=master)](https://travis-ci.org/sethbergman/ng2-admin)
+[ ![Codeship Status for sethbergman/ng2-admin](https://app.codeship.com/projects/52ba9b70-cd87-0134-bc47-1615020d3fe4/status?branch=master)](https://app.codeship.com/projects/200379)
 [![Join the chat at https://gitter.im/ng2-admin/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ng2-admin/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Dependency Status](https://david-dm.org/sethbergman/ng2-admin/status.svg)](https://david-dm.org/sethbergman/ng2-admin)
 
