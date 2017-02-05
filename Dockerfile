@@ -1,14 +1,12 @@
 FROM node:latest
 
-RUN git clone https://github.com/sethbergman/ng2-admin.git /var/www \
-    && cd /var/www \
-    && npm install --global rimraf \
-    && npm run clean \
-    && npm install --global webpack webpack-dev-server typescript@beta \
-    && npm install \
-    && npm run prebuild:prod && npm run build:prod
+ARG NODE=production
+ENV NODE_ENV ${NODE}
+RUN npm start
+
+ARG PATH_PREFIX                            # declare PATH_PREFIX as build arg
+RUN PATH_PREFIX=${PATH_PREFIX} ./dobuild   # use PATH_PREFIX (in this case as an env var consumed by build script)
 
 EXPOSE 8080
 
-WORKDIR /var/www
-ENTRYPOINT ["npm", "run", "server:prod"]
+# ENTRYPOINT ["npm", "run", "server:prod"]
