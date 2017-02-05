@@ -1,7 +1,6 @@
 FROM node:latest
 
 ARG NODE=production
-ENV NODE_ENV ${NODE}
 
 
 EXPOSE 8080
