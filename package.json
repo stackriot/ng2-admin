@@ -47,6 +47,7 @@
     "ngx-uploader": "^2.0.24",
     "normalize.css": "^5.0.0",
     "reflect-metadata": "^0.1.9",
+    "rimraf": "https://registry.npmjs.org/rimraf/-/rimraf-2.5.4.tgz",
     "rxjs": "~5.1.0",
     "tether": "^1.2.4",
     "zone.js": "~0.7.4"
