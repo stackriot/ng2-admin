@@ -138,7 +138,7 @@
     "server:dev:hmr": "npm run server:dev -- --inline --hot",
     "server:prod": "http-server dist -c-1 --cors",
     "server:test": "http-server dist-demo -c-1 --cors",
-    "server:prod:ci": "http-server dist -p 3000 -c-1 --cors",
+    "server:prod:ci": "http-server dist -p 5000 -c-1 --cors",
     "webdriver:update": "npm run webdriver-manager update",
     "webdriver:start": "npm run webdriver-manager start",
     "lint": "npm run tslint \"src/**/*.ts\" --force",
