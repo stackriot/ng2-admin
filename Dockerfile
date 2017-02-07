@@ -1,4 +1,4 @@
-FROM sethbergman/ng2-admin:latest
+FROM node:latest
 
 ARG NODE=production
 
