@@ -1,14 +1,10 @@
-FROM node:latest
+FROM sethbergman/ng2-admin:latest
 
 ARG NODE=production
 
 #RUN git clone https://github.com/sethbergman/ng2-admin.git /var/www \
 #    && cd /var/www \
-RUN npm install --global rimraf \
-    && npm run clean \
-    && npm install --global webpack webpack-dev-server typescript@beta \
-    && npm install \
-    && npm run build:prod
+RUN npm run prebuild:prod && npm run build:prod && npm run server:prod
 
 EXPOSE 80
 
