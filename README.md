@@ -7,13 +7,13 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/sethbergman/ng2-admin.svg)](https://greenkeeper.io/)
 
-Admin template made with :heart:  by [Akveo team](http://akveo.com/). Follow us on [Twitter](https://twitter.com/akveo_inc) to get latest news about this template first!
+Admin template made with :heart:  by [Akveo team](http://ng2-admin.stackriot.xyz/). Follow us on [Twitter](https://twitter.com/akveo_inc) to get latest news about this template first!
 
 ### Demo
 
-<a target="_blank" href="http://akveo.com/ng2-admin/"><img src="http://i.imgur.com/QK9AzHj.jpg" width="600" alt="Sky Blue"/></a>
+<a target="_blank" href="http://ng2-admin.stackriot.xyz/ng2-admin/"><img src="http://i.imgur.com/QK9AzHj.jpg" width="600" alt="Sky Blue"/></a>
 
-<a target="_blank" href="http://akveo.com/ng2-admin/">Live Demo</a>
+<a target="_blank" href="http://ng2-admin.stackriot.xyz/ng2-admin/">Live Demo</a>
 
 ## Angular 1.x version
 Here you can find Angular 1.x based version: [Blur Admin](http://akveo.github.io/blur-admin/)

@@ -87,7 +87,7 @@ You also can define a menu item not connected to any existing route in the appli
       // and define your menu item
       menu: {
         title: 'External Link', // title
-        url: 'http://akveo.com', // custom url
+        url: 'http://ng2-admin.stackriot.xyz', // custom url
         icon: 'ion-android-exit', // icon
         order: 800, // order
         target: '_blank' // target property of <a> tag (_self, _blank, etc)

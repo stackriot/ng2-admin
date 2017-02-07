@@ -318,7 +318,7 @@ export const PAGES_MENU = [
         data: {
           menu: {
             title: 'External Link',
-            url: 'http://akveo.com',
+            url: 'http://ng2-admin.stackriot.xyz',
             icon: 'ion-android-exit',
             order: 800,
             target: '_blank'
