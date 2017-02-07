@@ -1,5 +1,15 @@
-FROM nginx:latest
-COPY dist/ /usr/share/nginx/html
+FROM sethbergman/ng2-admin:latest
 
-# FROM sethbergman/ng2-admin:latest
 ARG NODE=production
+
+ENTRYPOINT /var/www
+
+npm install --global rimraf \
+    && npm run clean \
+    && npm install --global webpack webpack-dev-server typescript@beta \
+    && npm install \
+    && npm run build:prod
+
+EXPOSE 80
+
+# RUN npm run build
