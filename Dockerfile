@@ -10,7 +10,7 @@ RUN git clone https://github.com/sethbergman/ng2-admin.git /var/www \
     && npm install \
     && npm run build:prod
 
-EXPOSE 8080
+EXPOSE 80
 
 ENTRYPOINT /var/www
 # RUN npm run build
