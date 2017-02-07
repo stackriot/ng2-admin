@@ -319,7 +319,7 @@ exports.PAGES_MENU = [
                 data: {
                     menu: {
                         title: 'External Link',
-                        url: 'http://akveo.com',
+                        url: 'http://sethbergman.com',
                         icon: 'ion-android-exit',
                         order: 800,
                         target: '_blank'
