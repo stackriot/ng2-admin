@@ -37,6 +37,7 @@ Thumbs.db
 # IDE #
 .idea/
 *.swp
+.vscode
 
 # Angular #
 *.ngfactory.ts
@@ -46,3 +47,4 @@ Thumbs.db
 
 # Codeship
 /tmp
+.env

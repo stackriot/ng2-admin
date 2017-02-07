@@ -3,7 +3,7 @@
   "locals": {
     "url": "http://ng2-admin.stackriot.com",
     "name": "ng2-admin blog",
-    "owner": "Akveo",
+    "owner": "Seth Bergman",
     "description": ""
   },
   "plugins": [
