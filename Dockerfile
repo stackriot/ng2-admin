@@ -2,9 +2,9 @@ FROM node:latest
 
 ARG NODE=production
 
-ENTRYPOINT /var/www
-
-npm install --global rimraf \
+RUN git clone https://github.com/sethbergman/ng2-admin.git /var/www \
+    && cd /var/www \
+    && npm install --global rimraf \
     && npm run clean \
     && npm install --global webpack webpack-dev-server typescript@beta \
     && npm install \
@@ -12,4 +12,5 @@ npm install --global rimraf \
 
 EXPOSE 80
 
+ENTRYPOINT /var/www
 # RUN npm run build
