@@ -43,3 +43,6 @@ Thumbs.db
 *.css.shim.ts
 *.ngsummary.json
 *.shim.ngstyle.ts
+
+# Codeship
+/tmp
