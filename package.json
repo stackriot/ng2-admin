@@ -78,7 +78,7 @@
     "es6-shim": "^0.35.0",
     "es7-reflect-metadata": "^1.6.0",
     "exports-loader": "^0.6.3",
-    "expose-loader": "^0.7.1",
+    "expose-loader": "^0.7.2",
     "extract-text-webpack-plugin": "~2.0.0-beta.5",
     "file-loader": "^0.10.0",
     "find-root": "^1.0.0",
