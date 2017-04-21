@@ -50,7 +50,7 @@
     "rimraf": "https://registry.npmjs.org/rimraf/-/rimraf-2.5.4.tgz",
     "rxjs": "~5.1.0",
     "tether": "^1.2.4",
-    "zone.js": "~0.7.4"
+    "zone.js": "~0.8.6"
   },
   "devDependencies": {
     "@angular/compiler-cli": "2.4.6",
