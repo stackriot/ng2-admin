@@ -106,7 +106,7 @@
     "ts-node": "^2.0.0",
     "tslint": "~4.4.0",
     "typedoc": "^0.5.3",
-    "typescript": "~2.1.5",
+    "typescript": "~2.3.4",
     "url-loader": "^0.5.7",
     "webpack": "2.2.1",
     "webpack-dashboard": "0.3.0",
